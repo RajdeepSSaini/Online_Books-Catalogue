@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Online Book Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .cart-item {
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+
+        .cart-item h3 {
+            margin: 0;
+        }
+
+        .total {
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shopping Cart</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="catalogue.html">Books Catalogue</a>
+            <a href="cart.html">Shopping Cart</a>
+            <a href="payment.html">Payment</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="cart-item">
+		<img src="tgott.jpg" width="100px" height="150px" alt="Book 1">
+                <h3>The Girl on the Train by Ruskin Bond</h3>
+                <p>Quantity: 1</p>
+                <p>Price: ₹399.99</p>
+                <button>Remove</button>
+            </div>
+            <div class="cart-item">
+		<img src="tkamb.jpg" width="100px" height="150px" alt="Book 2">
+                <h3>To Kill a Mocking Bird by Harper Lee</h3>
+                <p>Quantity: 1</p>
+                <p>Price: ₹829.99</p>
+                <button>Remove</button>
+            </div>
+            <div class="total">
+                <h3>Total: ₹1229.98</h3>
+                <button>Proceed to Payment</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Book Store- Created by Rajdeep Singh Saini (211001001065)</p>
+    </footer>
+</body>
+</html>
